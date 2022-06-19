@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s2t_script transcription</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">S2t<span>_script</span></a>
+             <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="close-navigation">
+                <ul class="primary-nav">
+                    <li class="current"><a href="#"> Home</a></li>
+                    <li><a href="#"> Solutions</a></li>
+                    <li><a href="#"> Pricing</a></li>
+                </ul>
+                <ul class="secondary nav">
+                    <li><a href="#"> Contact</a></li>
+                    <li class="go-premium-cta"><a href="#"> Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead"> It's Cristal &amp; Clear </p>
+                <h1>Taking transcription to another level</h1>
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta"> Our Service Packages</a>
+    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="features-section">
+        <div class="container">
+            <div>Video Transcriptions</div>
+            <div>Podcast Transcriptions</div>
+            <div>Captioning and subtitling</div>
+            <div>Customer loyalty discount</div>
+            <div>100% Happy guarantee</div>
+            <div>Other Awesome Features</div>
+            <img src="images/keyback.jpg" alt="keyboard image">
+        </div>
+    </section>
+    <section class="testimonials-section">
+        <h1 class="heading">Testimonials</h1>
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+            
+            </ul>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="message">Message</label>
+                    <textarea type="message" id="message" cols="30" rows="10"></textarea>
+                    <input type="submit" class="send-message-cta" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.810574971939!2d36.8920433774776!3d-1.2257800700246622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f15860e184297%3A0xfdf644bd95b34426!2sSportsview%20Hotel%20Kasarani!5e0!3m2!1sen!2ske!4v1632761106392!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+            </div>
+        </div>
+    </section>
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav=document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit')
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+            console.log("mobile button clicked");
+        })
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+            console.log("mobile button exit clicked");
+        })
+    </script>
+
+</body>
+</html>
