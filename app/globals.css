@@ -69,3 +69,14 @@ html {
 .animate-delay-500 { animation-delay: 500ms; }
 
 .opacity-0 { opacity: 0; }
+
+/* Smooth scroll offset for fixed navbar */
+:target {
+  scroll-margin-top: 80px;
+}
+
+/* Focus ring improvements */
+:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}
